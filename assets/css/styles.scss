@@ -2,3 +2,24 @@
 ---
 
 @import "main";
+@import "section1";
+
+:root {
+    // --light:      #1d2325;
+    --light:      #d0aa9e;
+    --dark:       #2b2c2c;
+    --background: #000003;
+    --primary:    #22c66b;
+    --secondary:  #424e53;
+    --info:       #f75007;
+    --success:    #03b122;
+    --warning:    #f9c703;
+    --danger:     #f80148;
+    --text:       #faebd7;
+
+    font-family: "Montserrat";
+}
+
+
+
+
