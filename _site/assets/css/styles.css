@@ -1,25 +1,84 @@
 body {
   background-color: var(--background);
-  color: var(--text); }
+  color: var(--text);
+}
 
 .current {
-  color: green; }
+  color: green;
+}
 
 .section1 {
   margin: 0 auto;
   max-width: 80%;
   text-align: center;
-  background-color: var(--dark); }
+}
 
 #header-section1 {
-  padding: 1% 30% 1%; }
+  padding: 1% 30% 1%;
+}
 
 #text-section1 {
   padding: 1% 30% 1%;
-  font-weight: 300; }
+  font-weight: 300;
+}
+
+.section2 {
+  margin: 0 auto;
+  max-width: 80%;
+  background-color: var(--dark);
+  color: var(--text);
+}
+
+.box-section2 {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+#header-section2 {
+  text-align: center;
+}
+
+#text-section2 {
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.image-left {
+  float: left;
+  margin-right: 20px;
+}
+
+.image-right {
+  float: right;
+  margin-left: 20px;
+}
+
+.clear {
+  clear: both;
+}
+
+.media-text-i-section2 {
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  max-width: 60%;
+}
+
+.media-text-d-section2 {
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  max-width: 60%;
+}
+
+#text-box {
+  text-align: center;
+  font-weight: 300;
+}
 
 :root {
-  --light: #d0aa9e;
+  --light: #4c352e;
   --dark: #2b2c2c;
   --background: #000003;
   --primary: #22c66b;
@@ -29,4 +88,7 @@ body {
   --warning: #f9c703;
   --danger: #f80148;
   --text: #faebd7;
-  font-family: "Montserrat"; }
+  font-family: "Montserrat";
+}
+
+/*# sourceMappingURL=styles.css.map */
