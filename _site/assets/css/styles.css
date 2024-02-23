@@ -8,7 +8,7 @@ body {
 }
 
 .section1 {
-  margin: 0 auto;
+  margin: 10px auto;
   max-width: 80%;
   text-align: center;
 }
@@ -23,10 +23,12 @@ body {
 }
 
 .section2 {
-  margin: 0 auto;
+  margin: 10px auto;
   max-width: 80%;
   background-color: var(--dark);
   color: var(--text);
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .box-section2 {
@@ -70,6 +72,69 @@ body {
 }
 
 .media-text-d-section2 {
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  max-width: 60%;
+}
+
+#text-box {
+  text-align: center;
+  font-weight: 300;
+}
+
+.section3 {
+  margin: 0 auto;
+  max-width: 80%;
+  background-color: var(--light);
+  color: var(--text);
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.box-section3 {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+#header-section3 {
+  text-align: center;
+}
+
+#title-text-section3 {
+  text-align: center;
+}
+
+#text-section3 {
+  text-align: center;
+  font-weight: 300;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-bottom: 50px;
+}
+
+.image-left {
+  float: left;
+  margin-right: 20px;
+}
+
+.image-right {
+  float: right;
+  margin-left: 20px;
+}
+
+.clear {
+  clear: both;
+}
+
+.media-text-i-section3 {
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  max-width: 60%;
+}
+
+.media-text-d-section3 {
   margin: 0 auto;
   padding-top: 30px;
   padding-bottom: 30px;
